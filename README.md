@@ -32,7 +32,7 @@ Each frame consists of a few panels, which each have their own separate purposes
 The application is based around finding movies, adding and removing them from lists, and making changes to them.
 All of this is done within the WatchList, MovieSearchList, MovieList, and Movie classes.
 
-![UML Design Diagram](data/images/uml-design-diagram.png)
+![UML Design Diagram](data/images/uml-diagram.png)
 
 ## Data
 All movie data and icons are from
