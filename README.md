@@ -2,6 +2,15 @@
 A simple Java Swing desktop app that tracks and rates movies a user has watched that I built for CPSC 210 at the 
 University of British Columbia.
 
+## Table of Contents
+- [Demo](#demo)
+- [Project Structure](#project-structure)
+- [Logs](#logs)
+- [Data](#data)
+- [Future Plans](#future-plans)
+
+<a name="demo"/>
+
 ## Demo
 To add a movie click the add movie button at the bottom of the frame.
 
@@ -21,10 +30,7 @@ The movie will now display the chosen rating on the watch list.
 ![Demo 5](data/images/demo5.png)
 Use the Load Watch List and Save Watch List buttons to save and load the watch list to/from a JSON file.
 
-## Logs
-The application prints out all changes made to the watch list to the console when it exits.
-
-![UML Design Diagram](data/images/logs.png)
+<a name="project-structure"/>
 
 ## Project Structure
 The application is structured to have three frames: MainFrame, EditFrame, SearchFrame.
@@ -34,10 +40,21 @@ All of this is done within the WatchList, MovieSearchList, MovieList, and Movie 
 
 ![UML Design Diagram](data/images/uml-diagram.png)
 
+<a name="logs"/>
+
+## Logs
+The application prints out all changes made to the watch list to the console when it exits.
+
+![UML Design Diagram](data/images/logs.png)
+
+<a name="data"/>
+
 ## Data
 All movie data and icons are from
 [this](https://www.kaggle.com/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows?select=imdb_top_1000.csv)
 Kaggle dataset.
+
+<a name="future-plans"/>
 
 ## Future Plans
 - Expand number of available movies (currently 1000)
